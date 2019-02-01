@@ -91,3 +91,43 @@ alias b="cd .."
 alias bb="cd ../.."
 alias bbb="cd ../../.."
 alias bbbb="cd ../../../.."
+
+alias gti="git"
+alias igt="git"
+alias gt="git"
+alias got="git"
+alias giut="git"
+alias gitu="git"
+alias giit="git"
+alias it="git"
+
+alias q="exit"
+alias qq="exit"
+
+alias ls="ls --color=auto --group-directories-first"
+alias tree="tree --dirsfirst"
+
+alias mkdir="mkdir -p" # Automatically create intermediate non-existing directories when needed
+
+alias vundle="vim +PluginInstall +qall" # Install all vim plugins
+
+# added by Anaconda3 2018.12 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/alexanderwen/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/home/alexanderwen/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/alexanderwen/anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/home/alexanderwen/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<
+
+# unset <C-s>
+stty -ixon
+
