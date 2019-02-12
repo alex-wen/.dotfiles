@@ -7,6 +7,8 @@ ZSH_THEME="schminitz"
 # Which plugins would you like to load?
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+# https://github.com/zsh-users/zsh-autosuggestions
+plugins=(zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -36,6 +38,8 @@ alias mkdir="mkdir -p" # Automatically create intermediate non-existing director
 alias dev="cd Development/"
 
 alias vundle="vim +PluginInstall +qall" # Install all vim plugins
+
+alias zsh_history_fix="source ~/.dotfiles/zsh/zsh_history_fix.sh"
 
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>

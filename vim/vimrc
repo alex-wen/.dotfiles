@@ -66,6 +66,9 @@ set mouse-=a " mouse doesnt goes to position
 " install vim-gtk onto machine
 set clipboard=unnamedplus " shares system clipboard
 
+set number relativenumber " relative line numbers
+set nu rnu " show current line number
+
 """ tab control
 set expandtab " On pressing tab, insert 2 spaces
 set tabstop=2 " show existing tab with 2 spaces width
