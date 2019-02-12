@@ -4,7 +4,6 @@ export ZSH="/home/alexanderwen/.oh-my-zsh"
 # theme
 ZSH_THEME="schminitz"
 
-
 # Which plugins would you like to load?
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
@@ -33,6 +32,8 @@ alias ls="ls --color=auto --group-directories-first"
 alias tree="tree --dirsfirst"
 
 alias mkdir="mkdir -p" # Automatically create intermediate non-existing directories when needed
+
+alias dev="cd Development/"
 
 alias vundle="vim +PluginInstall +qall" # Install all vim plugins
 

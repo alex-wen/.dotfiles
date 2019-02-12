@@ -63,6 +63,8 @@ set fileencoding=utf-8
 set splitbelow " new files open on the bottom
 set splitright " new files open on the right
 set mouse-=a " mouse doesnt goes to position
+" install vim-gtk onto machine
+set clipboard=unnamedplus " shares system clipboard
 
 """ tab control
 set expandtab " On pressing tab, insert 2 spaces
