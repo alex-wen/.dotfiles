@@ -41,6 +41,8 @@ alias vundle="vim +PluginInstall +qall" # Install all vim plugins
 
 alias zsh_history_fix="source ~/.dotfiles/zsh/zsh_history_fix.sh"
 
+alias ecelinux="ssh zcwen@ecelinux4.uwaterloo.ca"
+
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
