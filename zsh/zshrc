@@ -43,6 +43,13 @@ alias zsh_history_fix="source ~/.dotfiles/zsh/zsh_history_fix.sh"
 
 alias ecelinux="ssh zcwen@ecelinux4.uwaterloo.ca"
 
+chpwd() {
+  ls
+}
+
+# unset <C-s> to pause terminal
+stty -ixon
+
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -60,6 +67,4 @@ fi
 unset __conda_setup
 # <<< conda init <<<
 
-# unset <C-s> to pause terminal
-stty -ixon
 
