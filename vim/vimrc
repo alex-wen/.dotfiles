@@ -63,6 +63,7 @@ set fileencoding=utf-8
 set splitbelow " new files open on the bottom
 set splitright " new files open on the right
 set mouse-=a " mouse doesnt goes to position
+set noswapfile " no swp files
 " install vim-gtk onto machine
 set clipboard=unnamedplus " shares system clipboard
 
