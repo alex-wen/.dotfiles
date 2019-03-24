@@ -1,0 +1,8 @@
+[alias]
+  co = checkout
+  b = branch
+  st = status
+
+[user]
+	email = me@alexwen.io
+	name = alexwen
