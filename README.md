@@ -43,6 +43,12 @@ rm -r alacritty
 ln -s ~/.dotfiles/alacritty/alacritty.yml ~/.alacritty.yml
 ```
 
+## i3
+```
+ln -s ~/.dotfiles/i3/i3blocks.conf ~/.config/i3/i3blocks.conf
+ln -s ~/.dotfiles/i3/config ~/.config/i3/config
+```
+
 ## vim
 ```
 ln -s ~/.dotfiles/vim/vimrc ~/.vimrc

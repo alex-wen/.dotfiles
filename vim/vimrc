@@ -43,7 +43,7 @@ let g:NERDTreeMapOpenSplit = 'h'
 let g:NERDTreeMapOpenVSplit = 'v'
 " open nerdtree and enter nerdtree pane if there is no file to edit, otherwise
 " edit the file
-autocmd vimenter * if argc() == 1 | NERDTree | wincmd p | else | NERDTree | endif
+autocmd vimenter * if !argc() | NERDTree | endif
 " quit nerdtree if nerdtree is the only panel open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
