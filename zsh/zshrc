@@ -36,7 +36,8 @@ alias tree="tree --dirsfirst"
 
 alias mkdir="mkdir -p" # Automatically create intermediate non-existing directories when needed
 
-alias dev="cd Development/"
+alias dev="cd ~/Dev/"
+alias down="cd ~/Downloads/"
 
 alias vundle="vim +PluginInstall +qall" # Install all vim plugins
 
