@@ -40,6 +40,7 @@ alias dev="cd ~/Dev/"
 alias down="cd ~/Downloads/"
 
 alias vundle="vim +PluginInstall +qall" # Install all vim plugins
+alias open="xdg-open"
 
 alias ecelinux="ssh zcwen@ecelinux4.uwaterloo.ca"
 alias ecetesla="ssh zcwen@ecetesla0.uwaterloo.ca"

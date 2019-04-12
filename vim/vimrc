@@ -10,7 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs' " auto complete pairs
 Plugin 'sheerun/vim-polyglot' " better language formatting support
 Plugin 'scrooloose/nerdtree' " file tree on the side
-Plugin 'Valloric/YouCompleteMe' " you already know what this plugin does
 Plugin 'google/vim-searchindex' " show which index my search is on
 Plugin 'christoomey/vim-tmux-navigator' " seamless navigation between vim and tmux
 Plugin 'ryanoasis/vim-devicons'

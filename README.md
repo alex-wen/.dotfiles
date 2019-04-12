@@ -1,5 +1,7 @@
 # .dotfiles
 
+WIP
+
 ## alacritty
 ### installation
 taken from `https://gist.github.com/Aaronmacaron/8a4e82ed0033290cb2e12d9df4e77efe`
